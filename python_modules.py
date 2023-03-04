@@ -1,4 +1,4 @@
-import datetime
-print((datetime.datetime.now() - datetime.timedelta(5)).strftime("%x"))
+from datetime import date, timedelta
+print((date.today() - timedelta(5)).strftime("%x"))
 
 
