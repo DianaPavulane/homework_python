@@ -35,7 +35,6 @@ def factorial(x):
         return factorial
     else:
         print("Invalid input")
-        return False
 
 print("================================")
 print("================================")
@@ -69,5 +68,3 @@ def sum_numbers(*numbers: float) -> float:
 print(sum_numbers(1, 2, 3, 4, 5, ))
 
 print("================================")
-
-# Practical Task 4
